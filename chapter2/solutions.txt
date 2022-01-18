@@ -1,0 +1,50 @@
+1. What are the two values of the Boolean data type? How do you write them?
+>>>> Ans(i): True and False
+        (ii) True and False
+
+2. What are the three Boolean operators:
+>>>> Ans: and, or, not are the three boolean operators
+
+3. Write out the truth tables of each Boolean operator (that is, every 
+    possible combination of Boolean values for the operator and what 
+    they evaluate to).
+==>> Ans: Boolean Operator combination      Result
+            True and True                   True
+            True and False                  False
+            False and True                  False
+            False and False                 False
+            True or True                    True
+            True or False                   True
+            False or True                   True
+            False or False                  False
+
+4. What do the following expressions evaluate to?
+    (5 > 4) and (3 == 5)
+==>> Ans: False
+    not (5 > 4) 
+==>> Ans: False
+    (5 > 4) or (3 == 5)
+==>> Ans: True
+    not ((5 > 4) or (3 == 5))
+==>> Ans: False
+    (True and True) and (True == False)
+==>> Ans: False
+    (not False) or (not True)
+==>> Ans: True
+5. What are the six conparison operators?
+==>> Ans: <, >, =<, =>, !=, ==
+6. What is the difference between the equal to operator and the assignment operator?
+==> The assignment operator'=' assigns the value on the right to the variable on the left while the equal to'==' operator checks if the two given operands are equal
+7. Explain what a condition is and where you would use one
+==>> Ans: A condition is a statement that must be fulfilled before particular actions can be executed in program.
+10. What can you press if your program is stuck in an infinite loop?
+==>> Ans: Control 'c' can be used to break out of an infinite loop
+11. What is the difference between break and continue:
+==>> Ans: 'break' is used for immediate termination of the loop and continue runs the next instance of the whle loop(kinda starts runnin the while loop from the top) 
+12. What is the difference between range(10), range(0, 10), and range(0, 10, 1)
+    in a for loop? 
+==>> range(10) provides 10 values, 0 through to 9, range(1,10) provides 9 values, 1 through to 9 while range(0,10,1)
+    also provides 10 values 0 through to 9 with the third character being the stepsize
+14. If you had a function named bacon() inside a module named spam, how 
+    would you call it after importing spam?
+==>> Ans: spam.bacon()
