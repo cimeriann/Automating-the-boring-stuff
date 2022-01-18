@@ -1,0 +1,2 @@
+1. Why are functions advantageous to have in your programs?
+ans: Functio
