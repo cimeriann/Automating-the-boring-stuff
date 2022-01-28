@@ -1,0 +1,43 @@
+1. What is []?
+ans: '[]' are special brackets used to define lists
+2. How would you assign the value 'hello' as the third value in a list stored in a variable named spam? 
+    (Assume spam contains [2, 4, 6, 8, 10].)
+ans: spam[2] = 'hello'
+    For the following three questions, let’s say spam contains the list ['a','b', 'c', 'd'].
+3. What does spam[int('3' * 2) / 11] evaluate to?
+ans: spam[3]
+4. What does spam[-1] evaluate to?
+ans: spam[-1] evaluates to the string value 'd'
+5. What does spam[:2] evaluate to?
+ans: spam[:2] evaluates to ['a', 'b']
+For the following three questions, let’s say bacon contains the list 
+[3.14, 'cat', 11, 'cat', True].
+6. What does bacon.index('cat') evaluate to?
+ans: bacon.index('cat') evaluates to 1. The method call returns the index of the string 'cat'
+7. What does bacon.append(99) make the list value in bacon look like?
+ans: [3.14, 'cat', 11, 'cat', True, 99]
+8. What does bacon.remove('cat') make the list value in bacon look like?
+ans: The .remove method only removes the first instance of the string 'cat' [3.14, 11, 'cat', True, 99]
+9. What are the operators for list concatenation and list replication?
+ans: The '+' operator is used for list concatenation while the '*' operator is used for list replication
+10. What is the difference between the append() and insert() list methods?
+ans: The append method adds a value to the end of a string while the insert method 
+    adds a value to a list at a particular index
+11. What are two ways to remove values from a list?
+ans: the remove() method and the del method can be used to remove values from a list.
+12. Name a few ways that list values are similar to string values.
+ans: Strings and lists support slicing and indexing.
+13. What is the difference between lists and tuples?
+ans: lists are mutable while lists are immutable.
+14. How do you type the tuple value that has just the integer value 42 in it?
+ans: (42)
+15. How can you get the tuple form of a list value? How can you get the list form of a tuple value?
+ans: To get the list form of a tuple value, you simply pass in the tuple in the list() function
+    To get the tuple form of a list value, you also pass in the list in the tuple() function
+16. Variables that “contain” list values don’t actually contain lists directly. 
+    What do they contain instead?
+ans: The variables simply contain references to those lists.
+17. What is the difference between copy.copy() and copy.deepcopy()?
+ans: the copy.copy() function creates a copy of a list or dictionary which can be assigned
+    to a separate variable. The copy.deepcopy() function is used in instances where the list being copied has 
+    inner lists.

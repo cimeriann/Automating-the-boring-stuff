@@ -15,14 +15,17 @@ def collatz(number):
     elif number % 2 ==1:
         return number * 3 + 1
 while True:
-    yinka = int(input('Input a number: '))
-    print(collatz(yinka))
-    if collatz(yinka) != 1:
-        continue
-    elif yinka == int:
-        print('please input an integer')
-        
-    else:
-        break
+    try:
+        yinka = int(input('Input a number: '))
+        print(collatz(yinka))
+        if collatz(yinka) != 1:
+            continue
+        elif yinka == int:
+            print('please input an integer')
+            
+        else:
+            break
+    except:
+        print('Please enter an integer.')
 
        

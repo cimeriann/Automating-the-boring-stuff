@@ -1,5 +1,7 @@
 1. Why are functions advantageous to have in your programs?
 ans: A function is a piece of code that can be used over and over again without having to type it multiple times
+     Since the varaibles in functions exist in their own Local scopes, the code in one function cannot directlty
+    affect the variables in another function.
 2. When does the code in a function execute: when the function is defined or when the function is called?
 ans: Functions execute when they are called
 3. 3. What statement creates a function:
