@@ -114,9 +114,28 @@
 # # print(bacon)
 # print(tuple([3.14, 'cat', 11, 'cat', True]))
 
-list = [1, 2, 3, 4, 5]
-for i in range(0, (len(list))):
-    str(list[i]) + ','
-list.insert((len(list)-1), 'and')
-print(list[len(list)-1])
-print(list)
+# list = [1, 2, 3, 4, 5]
+# for i in range(0, (len(list))):
+#     str(list[i]) + ','
+# list.insert((len(list)-1), 'and')
+# print(list[len(list)-1])
+# print(list)
+
+
+Birthdays = {'Dami':'April 3', 'Moyin' : 'Jan 31', 'Yinka' : 'Dec 14'}
+
+# while True:
+#     name = input(('Enter a name (blank to quit) ')).title()
+#     if name == ' ':
+#         break
+
+#     if name in Birthdays:
+#         print(Birthdays[name] + ' is the birthday of ' + name)
+#     else:
+#         print('I do not have the birthday information for ' + name)
+#         bday = input('What is their birthday?')
+#         Birthdays[name] = bday
+#         print('Birthdays database updated')
+
+for item in Birthdays.values():
+    print(item)    
