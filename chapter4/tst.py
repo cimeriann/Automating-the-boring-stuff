@@ -138,4 +138,8 @@ Birthdays = {'Dami':'April 3', 'Moyin' : 'Jan 31', 'Yinka' : 'Dec 14'}
 #         print('Birthdays database updated')
 
 for item in Birthdays.values():
-    print(item)    
+    print(item)
+
+
+for i in range(9):
+    print(i)    

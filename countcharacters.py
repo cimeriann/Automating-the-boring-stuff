@@ -1,8 +1,12 @@
-message = 'The world is a very beautiful place. The current month is February'
+# import pprint
+# message = 'The world is a very beautiful place. The current month is February'
 
-count = {}
-for character in message:
-    count.setdefault(character, 0)
-    count[character] = count[character] + 1
+# count = {}
+# for character in message:
+#     count.setdefault(character, 0)
+#     count[character] = count[character] + 1
 
-print(count)
+# pprint.pprint(count)
+
+spam = {'cats': 4}
+'cats' in spam.keys()
