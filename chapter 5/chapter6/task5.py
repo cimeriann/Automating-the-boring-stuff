@@ -1,0 +1,1 @@
+print('-'.join('There can be only one.'.split()))
