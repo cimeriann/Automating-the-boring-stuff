@@ -38,10 +38,8 @@ grid = [['.', '.', '.', '.', '.', '.'],
 # # will be in the upper-left corner, the x-coordinates increase going right, 
 # # and w the y-coordinates increase going down.
 # # Copy the previous grid value, and write code that uses it to print the image.
-j = 0
-k = 0
-for i in grid[j][k:]:
-    print(i)
-    
-
+for j in range(len(grid[0])):
+    for i in range(len(grid)):
+        print(grid[i][j],end='')
+    print('')
        
