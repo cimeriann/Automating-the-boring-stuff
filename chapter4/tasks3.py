@@ -3,22 +3,22 @@
 # to the function would return 'apples, bananas, tofu, and cats'. But your function should be able to work 
 # with any list value passed to it.
 
-# spam = ['apples', 'bananas', 'tofu', 'cats','josh',True]
+spam = ['apples', 'bananas', 'tofu', 'cats','josh',True]
 
-# def turntostring(list):
-#     list.insert(-1, 'and')
-#     strl = ''
+def turntostring(list):
+    list.insert(-1, 'and')
+    strl = ''
 
-#     for i in list[:-2]:
-#         strl += f'{i}, '
-#     for i in list[-2:]:
-#         strl += f' {i}'
-#     return strl
+    for i in list[:-2]:
+        strl += f'{i}, '
+    for i in list[-2:]:
+        strl += f' {i}'
+    return strl
 
-# print(turntostring(spam))
+print(turntostring(spam))
 
-# mylist = ['wakanda', 'united states', 'nigeria', 'united arab emirates', 'united kingdom']
-# print(turntostring(mylist))
+mylist = ['wakanda', 'united states', 'nigeria', 'united arab emirates', 'united kingdom']
+print(turntostring(mylist))
 
 
 # # Character Picture Grid
